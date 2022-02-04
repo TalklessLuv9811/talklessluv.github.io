@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bggg.jpg) no-repeat;
+    background-size: cover;
+  }
+  .box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+  }
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    font-family: 'Quintessential', cursive;
+    color: red;
+  }
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    font-family: 'Yellowtail', cursive;
+    color: chartreuse;
+  }
+  .box p{
+    text-align: justify;
+    color: yellow;
+    font-family: 'Teko', sans-serif;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+  }
+  .nav{
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    font-family: 'Architects Daughter', cursive;
+    display: flex;
+  }
+  .logo{
+    color: azure;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    display: flex;
+    padding: 5px;
+  }
+.nav-links a{
+    display: flex;
+    background-color: red;
+  }
+  button{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    font-family: 'Syne Tactile', cursive;
+    margin-right: 1rem;
+    cursor: pointer;
+    color: white;
+  }
+  .links{
+    display:flex;
+  }
+  .logo h4{
+    color: blue;
+    font-family: 'Architects Daughter', cursive;
+    margin-left: 40px;
+    
+  }
+
+  
+
